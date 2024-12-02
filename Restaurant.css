@@ -1,0 +1,92 @@
+body
+{
+    margin: 0;
+}
+.container
+ {
+   
+    margin: 0 auto;
+    padding: 0; 
+} 
+.subnav
+ { 
+    background-image: url('/Image/Pizza.jpg'); 
+    background-size: cover; 
+    background-position:center;
+    padding: 40px; 
+    height: 100%;
+    text-align:left;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+ } 
+ .navbar 
+ { 
+display: flex; 
+flex-direction:row; 
+align-items:flex-start; 
+list-style-type:lower-alpha;
+padding: 0; 
+margin: 0;
+position: absolute;
+top:7.5vh;
+right: 10vw;
+}
+.navbar a 
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white; 
+text-decoration: none;
+padding: 10px 15px; 
+transition: background-color 0.3s ease;
+}
+.navbar a:hover 
+{ 
+color: #e68a00;
+} 
+.subnav h1 
+{ 
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #e68a00;
+font-size: 3em; 
+margin-bottom: 20px;
+margin-top: 0%; 
+} 
+.subnav .parnav 
+{ 
+font-size: 2.2em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 15vh;
+letter-spacing: 1vw;
+line-height: 9.5vh;
+font-size: 42px;
+font-style: italic;
+
+} 
+.subnav .uparnav
+{
+width: 40vw;
+overflow-y:visible;
+line-height: 4vh;
+font-size: 1.2em;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+font-weight: bold;
+
+}
+.subnav button
+{
+padding: 10px 20px;
+background-color: #ff9900;
+color: white; 
+border: none; 
+border-radius: 5px;
+cursor: pointer; 
+transition: background-color 0.3s ease;
+}
+button:hover
+{
+background-color: #e68a00;
+}
